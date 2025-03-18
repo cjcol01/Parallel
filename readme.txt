@@ -17,14 +17,14 @@ For the parallel speed-up S, please note that:
 
 No. Machines:   Total No. Processes:     Mean time (average of 3 runs) in seconds:        Parallel speed-up, S:
 =============   ====================     =========================================        =====================
-1                       1                                                                                            
-1                       2                                                                                                                              
-1                       4                                                                                                               
-1                       8                                                                                              
-2                       16                                                                                                                       
-2                       32                                                                                                            
+1                       1                                  0.004646                                1.00                        
+1                       2                                  0.003511                                                                                            
+1                       4                                  0.002993                                                                             
+1                       8                                  0.002112                                                            
+2                       16                                 0.022376                                                                                      
+2                       32                                 0.042166                                                                          
 
 Please state the number of cores per machine (for Bragg 2.05, this is typically 12):
-14
+12
 A brief interpretation of your results:
 
